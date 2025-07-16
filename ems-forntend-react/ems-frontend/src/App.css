@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding-bottom: 60px; /* 给底部留出空间，比footer高度稍大 */
+  min-height: 100vh;
+}
+
+/* 或者给主要内容容器添加padding */
+.main-content {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: fixed; /* 固定定位 */
+  bottom: 0; /* 距离底部0像素 */
+  width: 100%; /* 宽度100% */
+  height: 50px; /* 高度50像素 */
+  background-color: black; /* 黑色背景 */
+  text-align: center; /* 文字居中 */
+  color: white; /* 白色文字 */
+  z-index: 1000; /* 确保footer在最上层 */
+}
