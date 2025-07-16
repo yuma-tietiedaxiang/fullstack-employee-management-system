@@ -1,0 +1,33 @@
+# Java / Spring Boot
+/target/
+/*.iml
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/
+!mvnw
+!mvnw.cmd
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+
+# macOS
+.DS_Store
+
+# Node.js / React
+node_modules/
+dist/
+.vscode/
+.env
+npm-debug.log*
+
+# Logs
+logs/
+*.log
+
