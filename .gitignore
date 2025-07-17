@@ -31,3 +31,4 @@ npm-debug.log*
 logs/
 *.log
 
+ems-backend/src/main/resources/application.properties
