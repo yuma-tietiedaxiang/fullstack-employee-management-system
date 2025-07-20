@@ -84,23 +84,17 @@ Below is a snapshot of the Employee Management System in action:
        ```
 
 
-   3. Frontend Setup (`ems-frontend-react`)
+3. Frontend Setup (`ems-frontend-react`)
 
       - Prerequisites: [Node.js](https://nodejs.org/en)
 
-      - Steps
 
-        ```
-  cd ems-frontend-react/ems-frontend
-        npm install
-        npm run dev
-        ```
-      
-        Visit: http://localhost:5173
+4. Run backend and frontend server
 
-3. Run backend and frontend server
-
-   - Open a new terminal window at `/ems-backend`, run `mvn spring-boot:run`
+   - Open a new terminal window at `/ems-backend`, run
+     ```
+     mvn spring-boot:run
+     ```
 
    - Open a new terminal window at `/ems-frontend-react/ems-frontend`, run
 
